@@ -1,3 +1,3 @@
 # Quotify
 
-An application for generating the random quotes.  The users can also List , Edit, Delete and save the quotes.
+An application for generating the random quotes.  The users can also List , Edit, Delete and Save the quotes.
