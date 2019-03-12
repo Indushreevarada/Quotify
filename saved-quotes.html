@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <title>Quotify - Saved Quotes</title>
+   <center><h2>Quotify</h2></center>
+   <style>
+        .quote {
+         width: 1000px;
+         max-width: 100%;
+         position: relative;
+         background-color:lightgrey
+         }
+        </style>
+</head>
+<body>
+    <center>
+    <a href="index.html" id="randomQuote" class="btn btn-info" role="button" >Random Quote</a> 
+    <a href="saved-quotes.html" id="randomQuoteLocal" class="btn btn-info" role="button">Random Quote(Local)</a>
+    <a href="new-quote.html" id="addQuote" class="btn btn-info" role="button">Add Quote</a>
+    <a href="list-all-saved-quotes.html" id="listAll" class="btn btn-info" role="button">List All Quotes(Local)</a>
+    </center>
+    <br/>
+    <center> <div class="quote">
+        <p id="quote"></p>
+        <p id="author"></p>
+    </div>
+    </center>
+    <form id="newQuote">
+    <center><button class="btn btn-primary" id = "getAnotherQuote">Get another quote</button></center>
+    </form> 
+    <script src="saved-quotes-script.js"></script>
+</body>
+
+</html>

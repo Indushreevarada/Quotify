@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <title>Quotify - Add New Quote</title>
+   <center><h2>Quotify</h2></center>
+</head>
+
+<body>
+    <center>
+        <a href="index.html" id="randomQuote" class="btn btn-info" role="button" >Random Quote</a> 
+        <a href="saved-quotes.html" id="randomQuoteLocal" class="btn btn-info" role="button">Random Quote(Local)</a>
+        <a href="new-quote.html" id="addQuote" class="btn btn-info" role="button">Add Quote</a>
+        <a href="list-all-saved-quotes.html" id="listAll" class="btn btn-info" role="button">List All Quotes(Local)</a>
+    </center>
+    <br/>
+
+      <form id="addQuote">
+    <center>
+    <textarea id="newQuote" placeholder="Enter new quote" style="margin: 0px; height: 135px; width: 550px;"></textarea><br/>
+    <input type="text" id="author" placeholder="Author's name" /><br/>  <br/>  
+    <button id="save" class="btn btn-primary">Save</button>
+    </form> 
+
+    <script src="new-quote-script.js"></script>
+    
+</body>
+</html>
